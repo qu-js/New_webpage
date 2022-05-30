@@ -19,7 +19,7 @@ nav{
     background-color: aqua;
     color:rgb(16, 15, 19);
     text-align: center;
-    margin: 3% 0% 1% 25%;
+    margin: 2% 0% 2% 25%;
     border-radius: 10px;
     border: 2px solid;
     border-color: rgb(39, 39, 171);
@@ -84,13 +84,12 @@ nav{
 
   div.gallery {
     margin: 40px 0px 10% 4%; /*위, 오른쪽, 아래, 왼쪽 순*/
-    border: 1px solid #ccc;
     float: left;
     width: 20%;
     height: 50%;
   }
   
-  div.gallery:hover {
+  div.gallery > img:hover {
     border: 1px solid #777;
   }
   
@@ -103,4 +102,31 @@ nav{
   div.desc {
     padding: 12px;
     text-align: center;
+    border: 1px dotted black;
+    border-style:none;
   }
+
+
+
+  /*그리드*/
+  
+  .grid_container{
+    display: grid;
+  }
+
+  .grid_item1 {
+    background-color: #70b3ebfb;
+ 
+    width: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .grid_item2{
+    background-color:rgb(172, 209, 228);
+    text-align: center;
+    border-style:none;
+  }
+
+  
