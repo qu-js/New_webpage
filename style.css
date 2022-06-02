@@ -3,29 +3,37 @@
 
 ul {
     list-style-type: none;
-    position: sticky;
+    /* position: sticky; */
+    word-spacing: 0.5%;
 }
 
 li{
     display: inline-block;
-    padding: 0px 3% 0px 3%; /*위 오른쪽 아래 왼쪽*/
+    padding: 0px 4% 0px 2.5%; /*위 오른쪽 아래 왼쪽*/
     text-align: center;
     font-size: 115%;
 }
 
 
 nav{
-    width:50%;
+    width: 50%;
     background-color: aqua;
     color:rgb(16, 15, 19);
     text-align: center;
-    margin: 2% 0% 2% 25%;
+    margin: 3% 0% 3% 25%;
     border-radius: 10px;
     border: 2px solid;
     border-color: rgb(39, 39, 171);
 }
 
 
+/*상단 바 양 옆 이미지*/
+.sideimg{
+  float:left; 
+  width:20%; 
+  height:100%;
+  margin-left:2%; 
+}
 
 
 
@@ -109,10 +117,22 @@ nav{
 
 
   /*그리드*/
-  
-  .grid_container{
-    display: grid;
+
+  .grid_top_content{
+    color: white;
+    text-align:center;
+    text-shadow:3px 3px 5px black;
+    font-size:30px;
   }
+  .grid_top{
+    background-color: rgb(64, 155, 230);
+    border: 1px solid;
+    border-radius: 5px;
+  }
+
+
+
+
 
   .grid_item1 {
     background-color: #70b3ebfb;
@@ -120,12 +140,10 @@ nav{
     width: 100%;
     border: 1px solid;
     border-radius: 5px;
-    text-align: center;
   }
 
   .grid_item2{
     background-color:rgb(172, 209, 228);
-    text-align: center;
     border-style:none;
   }
 
